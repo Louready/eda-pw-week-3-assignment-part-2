@@ -55,6 +55,11 @@ console.log('Some stars:'+ stars);
 for (let i = 0; i < stars.length; i++) {
   console.log(i, stars[i]);
 }
+//new code here for the for of loop *********************correction**********
+for (let value of stars) {
+  value += 1;
+  console.log(value);
+}
 
 // 3. While loops
 console.log('---- 3. While loop ----');
